@@ -35,10 +35,10 @@ sturdy house. Finally, Ephesians 2:22 declares that believers should come togeth
 righteous life in accordance with His will.
 
 **Relevant Bible Verses:**
-Preaching the kingdom of God, and teaching those things which concern the Lord Jesus Christ, with all confidence, no man forbidding him. (Acts 28:31)
-For the commandment is a lamp; and the law is light; and reproofs of instruction are the way of life: (Proverbs 6:23) To keep thee from the evil woman, from the
+- Preaching the kingdom of God, and teaching those things which concern the Lord Jesus Christ, with all confidence, no man forbidding him. (Acts 28:31)
+- For the commandment is a lamp; and the law is light; and reproofs of instruction are the way of life: (Proverbs 6:23) To keep thee from the evil woman, from the
 flattery of the tongue of a strange woman. (Proverbs 6:24)
-And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone; (Ephesians 2:20) In whom all the building fitly framed
+- And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone; (Ephesians 2:20) In whom all the building fitly framed
 together groweth unto an holy temple in the Lord: (Ephesians 2:21) In whom ye also are builded together for an habitation of God through the Spirit. (Ephesians 2:22)
 """
 
@@ -52,9 +52,9 @@ can separate us from God's love and protection. Therefore, we must remain obedie
 and commitment to Him. Ultimately, God's sovereignty ensures that His plan for salvation prevails, bringing peace and joy to those who accept Him into their hearts.
 
 **Relevant Bible Verses:**
-Who shall lay any thing to the charge of God’s elect? It is God that justifieth. (Romans 8:33)
-God reigneth over the heathen: God sitteth upon the throne of his holiness. (Psalms 47:8)
-For whatsoever is born of God overcometh the world: and this is the victory that overcometh the world, even our faith. (I John 5:4)
+- Who shall lay any thing to the charge of God’s elect? It is God that justifieth. (Romans 8:33)
+- God reigneth over the heathen: God sitteth upon the throne of his holiness. (Psalms 47:8)
+- For whatsoever is born of God overcometh the world: and this is the victory that overcometh the world, even our faith. (I John 5:4)
 """
 
 # print(ask_phi2("Prove the free will of man."))
