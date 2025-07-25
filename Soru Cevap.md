@@ -1,5 +1,5 @@
 # print(ask_phi2("What does the Bible say about money?"))
-# This line didn't have get_extended_verse, so the II Kings 12:4 is cut short after the comma.
+This line didn't have get_extended_verse, so the II Kings 12:4 is cut short after the comma.
 """
 **Biblical Teaching:**
 The Bible teaches us that our wealth should come from serving others rather than seeking personal gain through material possessions. In Deuteronomy 14:25, Moses
