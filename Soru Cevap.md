@@ -92,3 +92,17 @@ And delivered just Lot, vexed with the filthy conversation of the wicked: (II Pe
 - Then they cried unto the Lord in their trouble, and he saved them out of their distresses. (Psalms 107:13)
 - And they said, Thou hast saved our lives: let us find grace in the sight of my lord, and we will be Pharaoh’s servants. (Genesis 47:25)
 """
+
+# raw_response = ask_phi2("What does the Bible say about what saved people in the Old Testament?")
+# warmer_response = warm_biblical_teaching(raw_response)
+# print(warmer_response)
+"""**Biblical Teaching:**
+The Old Testament offers a beautiful reminder of God’s faithful love and mercy. We see how He lovingly rescues those who trust Him. Noah, a man who walked with God, was saved along with his family. Lot was spared from destruction because his heart longed for righteousness in a sinful place. Over and over, we witness how God responds with compassion when His people cry out.
+
+Salvation wasn’t based on perfection — it was always about trusting in God, turning from sin, and depending on His grace. These stories remind us that the heart of God has always been to save, redeem, and restore those who seek Him.
+
+**Relevant Bible Verses:**
+- And spared not the old world, but saved Noah the eighth person, a preacher of righteousness, bringing in the flood upon the world of the ungodly; (II Peter 2:5) And turning the cities of Sodom and Gomorrha into ashes condemned them with an overthrow, making them an ensample unto those that after should live ungodly; (II Peter 2:6) And delivered just Lot, vexed with the filthy conversation of the wicked: (II Peter 2:7)
+- Then they cried unto the Lord in their trouble, and he saved them out of their distresses. (Psalms 107:13)
+- And they said, Thou hast saved our lives: let us find grace in the sight of my lord, and we will be Pharaoh’s servants. (Genesis 47:25)
+- """
