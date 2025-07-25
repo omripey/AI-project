@@ -93,9 +93,9 @@ And delivered just Lot, vexed with the filthy conversation of the wicked: (II Pe
 - And they said, Thou hast saved our lives: let us find grace in the sight of my lord, and we will be Pharaoh’s servants. (Genesis 47:25)
 """
 
-# raw_response = ask_phi2("What does the Bible say about what saved people in the Old Testament?")
-warmer_response = warm_biblical_teaching(raw_response)
-print(warmer_response)
+# raw_response = ask_phi2("What does the Bible say about what saved people in the Old Testament?")  
+warmer_response = warm_biblical_teaching(raw_response)  
+print(warmer_response)  
 """**Biblical Teaching:**
 The Old Testament offers a beautiful reminder of God’s faithful love and mercy. We see how He lovingly rescues those who trust Him. Noah, a man who walked with God, was saved along with his family. Lot was spared from destruction because his heart longed for righteousness in a sinful place. Over and over, we witness how God responds with compassion when His people cry out.
 
