@@ -41,7 +41,8 @@ NLP alanında en etkili modellerden biri, ana amacı hem bilgisayarlara hem de i
 Burada şunu da eklemek lazım, Phi-2 modelini sadece yanıt oluşturmak için kullanıyorum; asıl anlam benzerliği karşılaştırmaları FAISS ve e5-large-v2 ile gerçekleşiyor. Phi-2 bu anlam eşleştirmeleriyle gelen ayetleri, kendi doğal dil yetenekleriyle sade, özlü ve sadık bir şekilde açıklıyor. 
 
 Son olarak, istediğim altyapıyı kurduktan sonra ayet referansı görevini basitleştirmeye karar verdim. Şu ana kadar kullandığım kutsal kitap açıklamalar, yorumlar ve dipnotlarla doluydu. Bu ekstralardan kurtulmak için bir ayıklama algoritması yapmıştım ancak modelimin işini kolaylaştırmak için daha basit bir formatla yapılmış kutsal kitapları aramaya başladım. Sonunda, bütün kitabın aşağıdaki formatta olduğu bir versiyonla karşılaştım:
-### Genesis
+
+Genesis
 [1:1] In the beginning God created the heaven and the earth.
 [1:2] And the earth was without form and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.
 [1:3] And God said, Let there be light: and there was light.
