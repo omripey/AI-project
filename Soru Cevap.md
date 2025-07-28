@@ -105,4 +105,35 @@ Salvation wasn’t based on perfection — it was always about trusting in God, 
 - And spared not the old world, but saved Noah the eighth person, a preacher of righteousness, bringing in the flood upon the world of the ungodly; (II Peter 2:5) And turning the cities of Sodom and Gomorrha into ashes condemned them with an overthrow, making them an ensample unto those that after should live ungodly; (II Peter 2:6) And delivered just Lot, vexed with the filthy conversation of the wicked: (II Peter 2:7)
 - Then they cried unto the Lord in their trouble, and he saved them out of their distresses. (Psalms 107:13)
 - And they said, Thou hast saved our lives: let us find grace in the sight of my lord, and we will be Pharaoh’s servants. (Genesis 47:25)
-- """
+"""
+
+# raw_response = ask_phi2("Prove the free will of man in the Bible.")
+warmer_response = warm_biblical_teaching(raw_response)
+print(warmer_response)
+"""**Biblical Teaching:**
+The Old Testament offers a beautiful reminder of God’s faithful love and mercy. We see how He lovingly rescues those who trust Him. Noah, a man who walked with God, was saved along with his family. Lot was spared from destruction because his heart longed for righteousness in a sinful place. Over and over, we witness how God responds with compassion when His people cry out.
+
+Salvation wasn’t based on perfection — it was always about trusting in God, turning from sin, and depending on His grace. These stories remind us that the heart of God has always been to save, redeem, and restore those who seek Him.
+
+**Relevant Bible Verses:**
+- But that no man is justified by the law in the sight of God, it is evident: for, The just shall live by faith. (Galatians 3:11)
+- If any man will do his will, he shall know of the doctrine, whether it be of God, or whether I speak of myself. (John 7:17)
+- That he no longer should live the rest of his time in the flesh to the lusts of men, but to the will of God. (I Peter 4:2)
+"""
+
+# raw_response = ask_phi2("Prove the free will of man in the Bible.")
+warmer_response = warm_biblical_teaching(raw_response)
+print(warmer_response)
+"""**Biblical Teaching:**
+
+When we turn to Scripture, we don’t just find instruction — we find comfort, guidance, and a reminder of God's heart for us.
+
+The concept of human freedom is central to understanding our relationship with God. In the first verse, we see Paul asserting that righteousness comes through faith rather than relying solely on external laws. This implies that humans have the ability to choose between right and wrong based on their own beliefs and convictions. In the second verse, Jesus emphasizes the importance of knowing the true doctrine of God's word. He states that those who truly understand His teachings can discern them even without being prompted. This suggests that individuals possess an innate capacity to comprehend and internalize spiritual truths. Finally, in the third verse, Peter speaks about living according to God's will rather than succumbing to worldly desires. This highlights the idea that humans have the power to make choices aligned with divine guidance, regardless of societal pressures or temptations. Together, these verses demonstrate that while there may be legal obligations imposed upon us, ultimately, our actions and decisions are determined by our personal choice and belief system. We are given the gift of free will, allowing us to align ourselves with God's plan and purpose. However, it is important to note that exercising this freedom requires genuine knowledge and understanding of God's Word, which empowers us to act in accordance with His commandments. By embracing our inherent liberty and making conscious choices rooted in faith, we can lead lives that reflect the grace and mercy of God.
+
+Even when life is hard to understand, God's Word draws us closer to His love and purpose.
+
+**Relevant Bible Verses:**
+- But that no man is justified by the law in the sight of God, it is evident: for, The just shall live by faith. (Galatians 3:11)
+- If any man will do his will, he shall know of the doctrine, whether it be of God, or whether I speak of myself. (John 7:17)
+- That he no longer should live the rest of his time in the flesh to the lusts of men, but to the will of God. (I Peter 4:2)
+"""
