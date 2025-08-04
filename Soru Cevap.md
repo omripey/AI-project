@@ -2,7 +2,7 @@
 This line didn't have get_extended_verse, so the II Kings 12:4 is cut short after the comma.
 
 
-"""
+"""\n
 **Biblical Teaching:**
 The Bible teaches us that our wealth should come from serving others rather than seeking personal gain through material possessions. In Deuteronomy 14:25, Moses
 instructs Israelites to "turn it into money" and keep it hidden away until they receive specific instructions from God regarding its purpose. This emphasizes the
