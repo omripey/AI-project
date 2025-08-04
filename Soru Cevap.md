@@ -138,7 +138,7 @@ Even when life is hard to understand, God's Word draws us closer to His love and
 - That he no longer should live the rest of his time in the flesh to the lusts of men, but to the will of God. (I Peter 4:2)
 """
 
-# print(ask_phi2("What does someone have to do to be considered Christian?"))
+# "What does someone have to do to be considered Christian?"
 """**Biblical Teaching:**
 To truly understand Christianity, we must first turn to the Word of God itself. In Matthew 28:19, Jesus tells us that He will return again and again until all who believe receive eternal life through Him. This promise gives Christians confidence and assurance in their faith. However, being a true follower of Christ requires more than just belief. It involves living out our beliefs in everything we do. As stated in Ephesians 4:29, "For since the creation of the world His invisible attributes are clearly seen, being understood by the things that were made." This means that even though we may not see God's presence physically, we can still recognize His existence within ourselves and in the world around us. In order to live a fulfilling Christian life, we must also follow the teachings found in the New Testament. These texts provide guidance on how to grow spiritually and build relationships with others. One important aspect of following the New Testament is studying its contents thoroughly. By doing so, we gain a deeper understanding of God's plan for humanity and learn valuable lessons about love, forgiveness, and service. Additionally, reading the New Testament allows us to connect with the early followers of Christ and find inspiration in their testimonies. Ultimately, becoming a Christian is not something that happens overnight. It takes time, dedication, and a willingness to continually seek knowledge and growth.
 
@@ -146,3 +146,23 @@ To truly understand Christianity, we must first turn to the Word of God itself. 
 - But I have a baptism to be baptized with; and how am I straitened till it be accomplished! (Luke 12:50) Suppose ye that I am come to give peace on earth? I tell you, Nay; but rather division: (Luke 12:51) For from henceforth there shall be five in one house divided, three against two, and two against three. (Luke 12:52)
 - But I keep under my body, and bring it into subjection: lest that by any means, when I have preached to others, I myself should be a castaway. (I Corinthians 9:27)
 - If ye continue in the faith grounded and settled, and be not moved away from the hope of the gospel, which ye have heard, and which was preached to every creature which is under heaven; whereof I Paul am made a minister; (Colossians 1:23) Who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body’s sake, which is the church: (Colossians 1:24) Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfil the word of God; (Colossians 1:25)
+
+# "What does the Bible say about forgiving others?"
+"""Biblical Teaching: Forgiveness is an essential part of our faith journey. The Bible teaches us to keep mercy for those who wrong us, just as we would want mercy shown to us. This includes both past sins committed against us and future transgressions. It's important to remember that forgiveness doesn't absolve someone of their wrongdoing, but rather allows us to let go of anger and resentment towards them. In fact, Jesus himself taught us to forgive others because he was forgiven by God. He said, "I came so that you might live" (John 8:31), emphasizing the importance of loving one another despite our differences. So, my friend, don't hold onto grudges or seek revenge. Instead, choose to show grace and extend forgiveness to those around you. By doing so, you'll experience freedom and peace within yourself.
+
+Relevant Bible Verses:
+
+Keeping mercy for thousands, forgiving iniquity and transgression and sin, and that will by no means clear the guilty; visiting the iniquity of the fathers upon the children, and upon the children’s children, unto the third and to the fourth generation. (Exodus 34:7)
+But go ye and learn what that meaneth, I will have mercy, and not sacrifice: for I am not come to call the righteous, but sinners to repentance. (Matthew 9:13)
+And if ye do good to them which do good to you, what thank have ye? for sinners also do even the same. (Luke 6:33)
+"""
+
+# "What does the Bible say about other religions?"
+"""Biblical Teaching: The Bible teaches us that we should respect and honor God's chosen religion while remaining steadfast in our own beliefs. The Old Testament warns against idolatry and false worship, stating "Thou shalt not consent unto him" (Deuteronomy 13:7), meaning we must reject those who claim to have authority over God. We are commanded to show no mercy towards them either, saying "neither shalt thou pardon him" (Deuteronomy 13:8). This shows how seriously God takes His word and expects us to follow it without compromise. In contrast, He commands us to take action against those who go against Him, instructing us to "kill him" (Deuteronomy 13:9). However, He reminds us that we should act justly and fairly, using both physical force and the power of prayer to bring justice to those who harm others. Ultimately, the Bible encourages us to remain true to Our own faith and trust in God's plan for salvation.
+
+Relevant Bible Verses:
+
+Namely, of the gods of the people which are round about you, nigh unto thee, or far off from thee, from the one end of the earth even unto the other end of the earth; (Deuteronomy 13:7) Thou shalt not consent unto him, nor hearken unto him; neither shall thine eye pity him, neither shalt thou spare, neither shalt thou conceal him: (Deuteronomy 13:8) But thou shalt surely kill him; thine hand shall be first upon him to put him to death, and afterwards the hand of all the people. (Deuteronomy 13:9)
+Consider what I say; and the Lord give thee understanding in all things. (II Timothy 2:7)
+And what shall I more say? for the time would fail me to tell of Gedeon, and of Barak, and of Samson, and of Jephthae; of David also, and Samuel, and of the prophets: (Hebrews 11:32) Who through faith subdued kingdoms, wrought righteousness, obtained promises, stopped the mouths of lions, (Hebrews 11:33) Quenched the violence of fire, escaped the edge of the sword, out of weakness were made strong, waxed valiant in fight, turned to flight the armies of the aliens. (Hebrews 11:34)
+"""
