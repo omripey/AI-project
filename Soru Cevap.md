@@ -23,16 +23,7 @@ according to God's will and sharing His riches with others.
 # print(ask_phi2("What is the core teaching of Christianity?"))
 """
 **Biblical Teaching:**
-The core teaching of Christianity lies within the words of Jesus Himself. As stated in Acts 28:31, "Preach the gospel freely among all nations." This means spreading
-the good news about Jesus' sacrifice and salvation to every person we encounter. The word "gospel" refers to both the Good News of Jesus' death and resurrection,
-as well as His teachings and principles outlined in the New Testament. In addition, according to Proverbs 6:23, "A lamp gives light where there is darkness,"
-emphasizing how preaching can bring illumination and understanding to others who may be lost or confused. Furthermore, Reproofs of Instruction serve as guidance and
-correction, helping individuals live out their faith more faithfully. These teachings provide a solid foundation for Christians to follow and help them navigate the
-challenges they face in daily life. Finally, Ephesians 2:20 states, "And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the
-chief corner stone..." This highlights the importance of following in the footsteps of the early church leaders and recognizing Jesus as the central figure in our lives. 
-Additionally, Ephesians 2:21 emphasizes that Jesus is the cornerstone upon which everything else stands - just as a strong foundation is essential for constructing a 
-sturdy house. Finally, Ephesians 2:22 declares that believers should come together under the spiritual leadership of Jesus, forming a community dedicated to living a 
-righteous life in accordance with His will.
+The core teaching of Christianity lies within the words of Jesus Himself. As stated in Acts 28:31, "Preach the gospel freely among all nations." This means spreading the good news about Jesus' sacrifice and salvation to every person we encounter. The word "gospel" refers to both the Good News of Jesus' death and resurrection, as well as His teachings and principles outlined in the New Testament. In addition, according to Proverbs 6:23, "A lamp gives light where there is darkness," emphasizing how preaching can bring illumination and understanding to others who may be lost or confused. Furthermore, Reproofs of Instruction serve as guidance and correction, helping individuals live out their faith more faithfully. These teachings provide a solid foundation for Christians to follow and help them navigate the challenges they face in daily life. Finally, Ephesians 2:20 states, "And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone..." This highlights the importance of following in the footsteps of the early church leaders and recognizing Jesus as the central figure in our lives. Additionally, Ephesians 2:21 emphasizes that Jesus is the cornerstone upon which everything else stands - just as a strong foundation is essential for constructing a sturdy house. Finally, Ephesians 2:22 declares that believers should come together under the spiritual leadership of Jesus, forming a community dedicated to living a righteous life in accordance with His will.
 
 **Relevant Bible Verses:**
 - Preaching the kingdom of God, and teaching those things which concern the Lord Jesus Christ, with all confidence, no man forbidding him. (Acts 28:31)
@@ -44,12 +35,7 @@ together groweth unto an holy temple in the Lord: (Ephesians 2:21) In whom ye al
 
 # print(ask_phi2("Prove the sovereignty of God."))
 """**Biblical Teaching:**
-God has established His own kingdom through Jesus Christ. He is sovereign over all things because he created them. This means that no one can challenge Him or
-take control away from Him. The power of God's rule cannot be denied or overthrown. In fact, those who reject God will face consequences. They may suffer punishment or
-eternal separation from God. However, those who believe in Jesus Christ have been chosen by God Himself. Through His sacrifice on the cross, we have been saved and
-placed under His authority. We trust in Him completely and follow His commandments. Our lives are now ruled by God's grace and mercy. As believers, we know that nothing
-can separate us from God's love and protection. Therefore, we must remain obedient to Him and live according to His standards. By doing so, we demonstrate our loyalty
-and commitment to Him. Ultimately, God's sovereignty ensures that His plan for salvation prevails, bringing peace and joy to those who accept Him into their hearts.
+God has established His own kingdom through Jesus Christ. He is sovereign over all things because he created them. This means that no one can challenge Him or take control away from Him. The power of God's rule cannot be denied or overthrown. In fact, those who reject God will face consequences. They may suffer punishment or eternal separation from God. However, those who believe in Jesus Christ have been chosen by God Himself. Through His sacrifice on the cross, we have been saved and placed under His authority. We trust in Him completely and follow His commandments. Our lives are now ruled by God's grace and mercy. As believers, we know that nothing can separate us from God's love and protection. Therefore, we must remain obedient to Him and live according to His standards. By doing so, we demonstrate our loyalty and commitment to Him. Ultimately, God's sovereignty ensures that His plan for salvation prevails, bringing peace and joy to those who accept Him into their hearts.
 
 **Relevant Bible Verses:**
 - Who shall lay any thing to the charge of God’s elect? It is God that justifieth. (Romans 8:33)
@@ -59,15 +45,7 @@ and commitment to Him. Ultimately, God's sovereignty ensures that His plan for s
 
 # print(ask_phi2("Prove the free will of man."))
 """**Biblical Teaching:**
-The concept of free will has been extensively discussed throughout history within religious contexts. It refers to an individual's ability to make choices independent of
-external influences or predetermined fate. This idea aligns closely with the belief in human agency and personal responsibility. In the New Testament, we find several
-instances where Jesus emphasizes the importance of free will. For instance, in John 7:17, He states, "If any man will do his will, he shall know of the doctrine." Here,
-Jesus highlights the significance of individuals actively engaging with theological concepts rather than passively accepting them without understanding. By doing so,
-believers can develop a deeper comprehension of their faith. Similarly, in Psalm 10:18, Jesus affirms His commitment to justice towards those who have been marginalized
-or oppressed. He declares, "To judge the fatherless and the widow; to plead the cause of the poor..." This passage underscores the notion that everyone deserves equal
-treatment under the law, regardless of societal status or wealth. Finally, in Galatians 3:11, Jesus asserts that righteousness comes through faith alone. He proclaims,
-"But that no man is justified by the law in the sight of God, it is evident: for, The just shall live by faith." In this verse, Jesus challenges the traditional reliance
-on legal systems for justification, emphasizing the transformative power of genuine faith.
+The concept of free will has been extensively discussed throughout history within religious contexts. It refers to an individual's ability to make choices independent of external influences or predetermined fate. This idea aligns closely with the belief in human agency and personal responsibility. In the New Testament, we find several instances where Jesus emphasizes the importance of free will. For instance, in John 7:17, He states, "If any man will do his will, he shall know of the doctrine." Here, Jesus highlights the significance of individuals actively engaging with theological concepts rather than passively accepting them without understanding. By doing so, believers can develop a deeper comprehension of their faith. Similarly, in Psalm 10:18, Jesus affirms His commitment to justice towards those who have been marginalized or oppressed. He declares, "To judge the fatherless and the widow; to plead the cause of the poor..." This passage underscores the notion that everyone deserves equal treatment under the law, regardless of societal status or wealth. Finally, in Galatians 3:11, Jesus asserts that righteousness comes through faith alone. He proclaims, "But that no man is justified by the law in the sight of God, it is evident: for, The just shall live by faith." In this verse, Jesus challenges the traditional reliance on legal systems for justification, emphasizing the transformative power of genuine faith.
 
 **Relevant Bible Verses:**
 - If any man will do his will, he shall know of the doctrine, whether it be of God, or whether I speak of myself. (John 7:17)
@@ -77,13 +55,7 @@ on legal systems for justification, emphasizing the transformative power of genu
 
 # print(ask_phi2("What does the Bible say about what saved people in the Old Testament?"))
 """**Biblical Teaching:**
-The Bible teaches that God saves individuals through His mercy and intervention. In the story of Noah's Ark, God spares Noah himself along with eight others who were
-righteous and preached righteousness before the flood came. This act demonstrates God's faithfulness to save those who seek Him and follow His commandments. Additionally,
-God delivers Lot and his family from the sins and temptations of the wicked city of Sodom and Gomorrah. These acts show that God intervenes to protect and rescue those
-who turn away from sin and embrace righteousness. Furthermore, the people in distress cry out to God, acknowledging His salvation and expressing gratitude. They recognize
-that without God's saving power, they would have been lost in their troubles. The Bible consistently emphasizes God's role as the ultimate savior and protector of
-humanity. Through His promises and actions, He provides hope and assurance to all who believe in Him. Therefore, based on these verses, it can be concluded that God
-saves individuals through His divine intervention and provision.
+The Bible teaches that God saves individuals through His mercy and intervention. In the story of Noah's Ark, God spares Noah himself along with eight others who were righteous and preached righteousness before the flood came. This act demonstrates God's faithfulness to save those who seek Him and follow His commandments. Additionally, God delivers Lot and his family from the sins and temptations of the wicked city of Sodom and Gomorrah. These acts show that God intervenes to protect and rescue those who turn away from sin and embrace righteousness. Furthermore, the people in distress cry out to God, acknowledging His salvation and expressing gratitude. They recognize that without God's saving power, they would have been lost in their troubles. The Bible consistently emphasizes God's role as the ultimate savior and protector of humanity. Through His promises and actions, He provides hope and assurance to all who believe in Him. Therefore, based on these verses, it can be concluded that God saves individuals through His divine intervention and provision.
 
 **Relevant Bible Verses:**
 - And spared not the old world, but saved Noah the eighth person, a preacher of righteousness, bringing in the flood upon the world of the ungodly; (II Peter 2:5)
@@ -146,6 +118,7 @@ To truly understand Christianity, we must first turn to the Word of God itself. 
 - But I have a baptism to be baptized with; and how am I straitened till it be accomplished! (Luke 12:50) Suppose ye that I am come to give peace on earth? I tell you, Nay; but rather division: (Luke 12:51) For from henceforth there shall be five in one house divided, three against two, and two against three. (Luke 12:52)
 - But I keep under my body, and bring it into subjection: lest that by any means, when I have preached to others, I myself should be a castaway. (I Corinthians 9:27)
 - If ye continue in the faith grounded and settled, and be not moved away from the hope of the gospel, which ye have heard, and which was preached to every creature which is under heaven; whereof I Paul am made a minister; (Colossians 1:23) Who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body’s sake, which is the church: (Colossians 1:24) Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfil the word of God; (Colossians 1:25)
+"""
 
 # "What does the Bible say about forgiving others?"
 """Biblical Teaching: Forgiveness is an essential part of our faith journey. The Bible teaches us to keep mercy for those who wrong us, just as we would want mercy shown to us. This includes both past sins committed against us and future transgressions. It's important to remember that forgiveness doesn't absolve someone of their wrongdoing, but rather allows us to let go of anger and resentment towards them. In fact, Jesus himself taught us to forgive others because he was forgiven by God. He said, "I came so that you might live" (John 8:31), emphasizing the importance of loving one another despite our differences. So, my friend, don't hold onto grudges or seek revenge. Instead, choose to show grace and extend forgiveness to those around you. By doing so, you'll experience freedom and peace within yourself.
