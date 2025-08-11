@@ -1,13 +1,17 @@
 Sorun:
- →Ortada muhabbet edilebilecek, sorular sorulup cevaplar alınabilecek, gerekirse kaynak verebilecek yapay zekalar çokça mevcut. Ancak, bu yapay zekalar seküler alanlarda başarılıyken Hristiyanlık konusunda istenen dilde veya formatta cevaplar veremiyor.
+
+→Ortada muhabbet edilebilecek, sorular sorulup cevaplar alınabilecek, gerekirse kaynak verebilecek yapay zekalar çokça mevcut. Ancak, bu yapay zekalar seküler alanlarda başarılıyken Hristiyanlık konusunda istenen dilde veya formatta cevaplar veremiyor.
 
 Çözüm:
+
 →Hristiyan kelime dağarcığına aşina olan ve Hristiyan kaynaklara erişimi olan bir yapay zeka alternatifi geliştirmek.
 
 Süreç:
+
 →Öncelikle GPT ve muadilleriyle başlamayı planladım ama bu modeller bizim amacımız için yanlış yönde eğitildiler, bu yüzden daha basit ve “düşük zekalı” ama bir yandan da maliyeti ucuz bir model olan Phi-2’ye yöneldim ve bütün sistemimi bu model üstüne kurdum.
 
 Başlangıç:
+
 →Başta herhangi bir eğitim ve kaynak referansı olmadan verilen bir dini soruya cevap verir gibi yapıp düzenli olarak farazi durumlar kuruyordu-buna yapay zeka halüsinasyonu deniyor-ve önüne geçilmezse konuşup konuşup duruyor, örneğin kutsal kitapta sevgi ile ilgili ne deniyor sorusuna paradan başlayıp varsayımsal bir biyokimya laboratuvarında insanların arasındaki dinamikler hakkında gevelemeye başladı.
 
 Bunun önüne geçmek için 2 öncü sistem kurdum:
@@ -31,9 +35,11 @@ Bu sistem ile “para”, “sevgi”, “günah”, “nefret”, “öfke” g
 →Bu noktada kelime aramayı otomatikleştirmek için kendi tokenizer yapımı kurdum. Özetle, kullanıcıdan gelen soruyu token’lara (kelime birimlerine) ayırıp, bu token’ları daha önce ayıklanmış ve temizlenmiş ayet metinleri üzerinde taramak üzere bir yapı kurdum. Bu yapı her kelime için, ayet içinde geçen tüm varyasyonlarını (çoğul, çekim eki, büyük/küçük harf farkı vb.) normalize ederek arama yapıyor.
 
 Phi-2:
+
 Microsoft Research tarafından yapılan Causal Language modelini kullanan bir yapay zeka-hem anlamlı hem de önceki bağlamla örtüşen yanıtlar verebilen, “masked self-attention” sistemiyle kronolojik mesaj yaratımı. Daha basit söylemek gerekirse, bir cümle kurarken önceki kelimelere bakarak sonraki kelimeyi tahmin ediyor; hiçbir zaman ileriye değil, geriye bakarak mesaj üretiyor. Bu sistem GPT modelinde de kullanılıyor, Phi-2 bu açıdan daha “cost effective” bir versiyon. 2.7 milyar parametresiyle muadillerine nazaran çok daha küçük bir model olmasına rağmen, yaratıcılarının “better data beats more data” prensibiyle kendisine verilen ders kitabına benzer formatıyla hızlı, ucuz, yüksek performans sergileyebiliyor. Şaşırtıcı şekilde, piyasadaki muadillerinin üçte biri büyüklüğe sahip olmasına rağmen benchmark testlerinde üstün performans sergiliyor. LLaMa, Mistral, GPT gibi modellerle karşılaştırıldığında kaynak başına hızı bu modelleri solda sıfır bırakıyor. Tek “dezavantajı” pretuned ama instruction tuned değil, yani basit eğitimlere sahip olmasına rağmen özelleştirilmiş değil. Bu kesinlikle bizim projemiz için büyük bir avantaj çünkü kolayca eğilebilen yaş ağaç gibi kendimiz istediğimiz şekle sokabiliriz. 2048 token sınırı düşük, güvenlik parametreleri üstüne çalışılması gerek, ama bu “insincere” yapay zeka durumundan kurtulmak için üstüne kafa yorulup zaman verilip dilenen formata varılabilir.
 
 FAISS (Facebook AI Similarity Search):
+
 Yüzlerce/binlerce kelime yazıp her prompt için o büyük listede gezinmek yerine prompt içindeki anahtar kelimeleri veya bu kelimelere benzer anlamlı kelimeleri kutsal kitap ayetleri içinde aramaya karar verdim, bunun için karşıma çıkan algoritma da FAISS oldu. Bu modeli bir embedding (gömme) modeli ile birlikte kullanınca spesifik kelimeler değil, verilen bütün cümlenin taşıdığı anlam göz önünde bulundurulduğu için ortaya çıkan sonuçlar çok daha geniş bir kapsam içinde oluyor.
 
 Teknik konuya inmek gerekirse, “What does the Bible say about marriage?” gibi bir örnek cümlede her kelimeye bir benzerlik numarası veriliyor. e5-large-v2 modeli ile yapılan bu gömme işlemi cümleyi bir vektör haline getirerek semantik anlam aramasına hazırlıyor. Bundan sonra FAISS geniş veritabanı içinde bunla bitişik cümleleri analiz ediyor. Örneğin, “Is it a sin for someone to separate from their spouse?” ve “Is the end of a marriage frowned upon in the Bible?” gibi sorular bu vektör alanında birbirine yakın oturuyorlar. Bundan sonra, kosinüs benzerliği denen vektörler arasındaki yakınlığın nümerik sayılarını analiz ederek bir eşik değerin üstündeki benzerlikte olan ayetleri getiriyor. Bu ayetlerin benzerlik değeri en yüksek olan üçü kullanıcıya verilen yanıttaki “Biblical Teaching” kısmında yapay zeka tarafından açıklanıyor, altında da “Relevant Verses” kısmına referans olarak konuluyor.
@@ -41,11 +47,13 @@ Teknik konuya inmek gerekirse, “What does the Bible say about marriage?” gib
 →FAISS aramaları, yalnızca kullanıcıdan gelen soruya en benzer ayetleri değil, aynı zamanda aralarında bağlam tutarlılığı olan ayetleri de getiriyor. Bu bağlam ilişkisini sağlamak için arka planda benzerlik eşiği dışında bir minimum bağlam uzunluğu da kontrol ediliyor.
 
 Paraphrase-multilingual-mpnet-base-v2:
+
 Kutsal Kitap ayetleri ile kullanıcının soruları arasındaki anlamsal benzerliği ölçmek için, paraphrase-multilingual-mpnet-base-v2 adlı çok dilli ve paraphrase (anlamdaş cümle) odaklı bir embedding modeli kullandım. Bu model, verilen cümleleri çok boyutlu vektörlere dönüştürerek, farklı dillerde olsa bile aynı anlama gelen cümlelerin birbirine yakın konumlanmasını sağlıyor. Böylece, örneğin “Evlilik hakkında ne diyor?” ve “Birinin eşiyle ayrılması günah mıdır?” gibi farklı şekillerde sorulmuş sorular aynı anlam alanında bulunuyor ve ilgili ayetler kolayca bulunabiliyor.
 
 Bu model Microsoft ve SentenceTransformers tarafından geliştirilen MPNet mimarisini temel alır ve özellikle anlamlı, bağlama uygun cümle temsilinde üstündür. Ayrıca çok dilli destek sunduğu için ileride farklı dilde sorularla da çalışabilir. Bu embeddingler FAISS arama motoru ile birlikte kullanılarak, kullanıcı sorusuna en uygun ayetleri hızlı ve etkili şekilde bulmamı sağladı.
 
 e5-large-v2:
+
 NLP alanında en etkili modellerden biri, ana amacı hem bilgisayarlara hem de insanlara önlerindeki yazıyı anlamdırmak. Barındırdığı 24 katman ve 1024 karakteri gömme sınırı ile yazılar arasındaki ilişkiyi ve anlamlarını karşılaştırmak için biçilmiş kaftan. Üstte açıklandığı gibi, cümledeki kelimeleri semantik anlamlarına göre teker teker sayılara çevirerek cümleyi bir vektör haline getiriyor. Bu cümlede sayılar kendi başına bir anlam ifade etmiyor ancak bu vektör bir “meaning space” içine yerleştirildiğinde benzer cümleler birbirine yakın oluyor. Kurduğum yapay zeka modelinin kullandığı sistem de bu. Yüklenen kutsal kitaptaki ayetleri bu vektörlere ayrıştırarak verilen prompt cümlesiyle “meaning space” içinde en yakın olan ayetleri çekerek benzerlik sayısı en yüksek 3 ayetle bir yanıt oluşturuyor.
 
 →Bu modeli yalnızca FAISS ile kullanmadım. Aynı zamanda kelime başına düşen embedding uzaklıklarının istatistiksel dağılımını analiz eden bir helper fonksiyon da oluşturdum. Bu sayede bazı ayetlerin, anlam olarak soruyla uyuşsa da genel dilinden dolayı zayıf sonuçlar getirmesi engellenmiş oldu.
@@ -63,7 +71,8 @@ Genesis
 
 Modelin kitabı inceleme algoritmasını buna göre değiştirdim(eski kısmı silmeden yorum yaparak) ve bu işi daha da akıcı hale getirdi.
 
-Ayet Tamamlama Fonksiyonu: get_extended_verse()
+Ayet Tamamlama Fonksiyonu get_extended_verse():
+
 Model, genellikle doğru cevaplar üretse de zaman zaman verdiği ayetler eksik olabiliyordu. Bunun temel nedeni, Kutsal Kitap'taki bazı cümlelerin tek bir sonlandırıcı işaret (., !, ?) yerine noktalı virgül (;), iki nokta (:) veya virgül (,) ile devam etmesi ve bu nedenle cümlelerin birden fazla ayete bölünmüş olmasıydı.
 
 Örneğin:
@@ -87,7 +96,9 @@ Cevapta kullanılan ayet: I Corinthians 8:5
 get_extended_verse çıktısı: [I Corinthians 8:5, I Corinthians 8:6]
 
 Kullanıcının daha çok hoşuna gidecek ton ihtiyacı: warm_biblical_teaching():
+
 Sorulan sorulara Kutsal Kitap'tan doğru ayetleri alıp cevabına eklese de, modelin yeterince eğitilmemesinden ortaya çıkan bir soğuk cevap tonu vardı. Bunu düzeltmek için warm_biblical_teaching() adlı bir fonksiyon yazdım. Başta fazladan promptlar ekleyip bir intro ve outro koydum ancak bu intro ve outro bazen sorulan soruların doğasına uymuyordu, bu yüzden promptları en baştaki system_prompt listesine ekledim. Şu an bu fonksiyonu kullanmıyorum ancak fonksiyonu silmememin sebebi modelin verdiği cevapların zamanla daha ılımlı ve cana yakın hale getirilebileceğine inanmam, gerek bu tür bir fonksiyon kullanılırsa, gerek promptlar zenginleştirilirse, gerek de mesajlaşma geçmişi özelliği eklendiğinde model hangi cevapların sevildiğine göre eğitilirse.
 
-Gradio Arayüzü
+Gradio Arayüzü:
+
 Şimdilik tam istenen şekilde çalışmasa bile, Gradio adlı grafik arayüz programını kullanarak basit bir internet sitesi formatı yarattım. Bu basit sistemde soruların yazıldığı boşluk, submit tuşu, ve daha geliştirilmemiş "bu cevabı sevdim" ve "bu cevabı sevmedim" şeklinde yapay zekaya feedback veren iki tuş daha ekledim. 
