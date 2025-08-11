@@ -72,7 +72,6 @@ Genesis
 Modelin kitabı inceleme algoritmasını buna göre değiştirdim(eski kısmı silmeden yorum yaparak) ve bu işi daha da akıcı hale getirdi.
 
 Ayet Tamamlama Fonksiyonu: get_extended_verse()
-
 Model, genellikle doğru cevaplar üretse de zaman zaman verdiği ayetler eksik olabiliyordu. Bunun temel nedeni, Kutsal Kitap'taki bazı cümlelerin tek bir sonlandırıcı işaret (., !, ?) yerine noktalı virgül (;), iki nokta (:) veya virgül (,) ile devam etmesi ve bu nedenle cümlelerin birden fazla ayete bölünmüş olmasıydı.
 
 Örneğin:
@@ -96,7 +95,6 @@ Cevapta kullanılan ayet: I Corinthians 8:5
 get_extended_verse çıktısı: [I Corinthians 8:5, I Corinthians 8:6]
 
 Kullanıcının daha çok hoşuna gidecek ton ihtiyacı: warm_biblical_teaching():
-
 Sorulan sorulara Kutsal Kitap'tan doğru ayetleri alıp cevabına eklese de, modelin yeterince eğitilmemesinden ortaya çıkan bir soğuk cevap tonu vardı. Bunu düzeltmek için warm_biblical_teaching() adlı bir fonksiyon yazdım. Başta fazladan promptlar ekleyip bir intro ve outro koydum ancak bu intro ve outro bazen sorulan soruların doğasına uymuyordu, bu yüzden promptları en baştaki system_prompt listesine ekledim. Şu an bu fonksiyonu kullanmıyorum ancak fonksiyonu silmememin sebebi modelin verdiği cevapların zamanla daha ılımlı ve cana yakın hale getirilebileceğine inanmam, gerek bu tür bir fonksiyon kullanılırsa, gerek promptlar zenginleştirilirse, gerek de mesajlaşma geçmişi özelliği eklendiğinde model hangi cevapların sevildiğine göre eğitilirse.
 
 Gradio Arayüzü
