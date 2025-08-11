@@ -1,5 +1,5 @@
 Sorun:
-→Ortada muhabbet edilebilecek, sorular sorulup cevaplar alınabilecek, gerekirse kaynak verebilecek yapay zekalar çokça mevcut. Ancak, bu yapay zekalar seküler alanlarda başarılıyken Hristiyanlık konusunda istenen dilde veya formatta cevaplar veremiyor.
+ →Ortada muhabbet edilebilecek, sorular sorulup cevaplar alınabilecek, gerekirse kaynak verebilecek yapay zekalar çokça mevcut. Ancak, bu yapay zekalar seküler alanlarda başarılıyken Hristiyanlık konusunda istenen dilde veya formatta cevaplar veremiyor.
 
 Çözüm:
 →Hristiyan kelime dağarcığına aşina olan ve Hristiyan kaynaklara erişimi olan bir yapay zeka alternatifi geliştirmek.
